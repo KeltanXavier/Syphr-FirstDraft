@@ -1,0 +1,35 @@
+#navmenu{
+  height: 66px;
+  color: #777;
+  background-color: #fff;
+  overflow: auto;
+}
+
+#navmenu ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+#navmenu li{
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  width: 100px;
+  height: inherit;
+  line-height: 65px;
+  float: right;
+}
+
+#navmenu li a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+
+}
+
+#navmenu li :hover{
+  padding-top: 1px;
+  opacity: 0.7;
+}
